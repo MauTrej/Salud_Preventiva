@@ -1,0 +1,71 @@
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #dbeafe;
+  padding: 1.25rem;
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.06);
+}
+
+h2 {
+  margin: 0;
+  color: #1e3a8a;
+}
+
+p {
+  color: #475569;
+  margin: 0.4rem 0 1rem;
+}
+
+.grid-form {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 0.6rem 0.7rem;
+  font: inherit;
+  background: #f8fafc;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.18);
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.btn-primary {
+  grid-column: 1 / -1;
+  border: 0;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+}
