@@ -1,5 +1,5 @@
 <script setup>
-const logoUrl = import.meta.env.VITE_LOGO_PATH || '/logo-revotechia.png'
+const logoUrl ='../src/assets/Salud-preventiva.png'
 </script>
 
 <template>

@@ -33,6 +33,15 @@ npm install
 npm run dev
 ```
 
+## Variables de entorno
+
+Configura en `.env` la URL del backend para recomendaciones:
+
+```dotenv
+VITE_API_RECOMENDACIONES_URL=http://localhost:4000/api/recomendaciones
+VITE_API_CHAT_URL=http://localhost:4000/api/recomendaciones/chat
+```
+
 ## Build de producción
 
 ```bash

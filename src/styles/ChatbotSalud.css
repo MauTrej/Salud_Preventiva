@@ -40,6 +40,25 @@ p {
   line-height: 1.35;
 }
 
+.bubble-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.bubble-content p {
+  margin: 0;
+}
+
+.bubble-content ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.bubble-content li + li {
+  margin-top: 0.35rem;
+}
+
 .bubble.bot {
   background: #e0f2fe;
   color: #0c4a6e;

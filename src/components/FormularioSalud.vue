@@ -72,6 +72,7 @@ function enviarFormulario() {
           v-model="form.objetivo"
           rows="3"
           placeholder="Ej: mejorar energía, dormir mejor, prevenir hipertensión..."
+          required
         />
       </label>
 
